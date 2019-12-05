@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta name="author" content="Palina Pauliuchenka">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Агрослайд</title>
+        <!-- Styles -->
+        <link rel="stylesheet" href="./css/master.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Pattaya|Roboto&display=swap" rel="stylesheet">
+        <!-- Font awesome -->
+        <script src="https://kit.fontawesome.com/9d14103e7c.js"></script>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./img/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img class="logoimg" src="./img/icon.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Главна<span class="sr-only">(текущая)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">О нас</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Продукция
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Туша</a>
+                            <a class="dropdown-item" href="#">Полу туша</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#" title="Заказать">+375(29)650-20-10</a>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Контакты</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link phone" href="tel: +375(29)650-20-10" tabindex="-1" aria-disabled="true"  title="Заказать">+375(29)650-20-10</a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- introduction -->
+        <section id="intro">
+            <div class="container">
+                <div><h1>Агрослайд</h1></div>
+                <div><p>Проверено временем</p></div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn contact-btn intro-btn" data-toggle="modal" data-target="#exampleModal">
+                  cвязаться с нами
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Связаться с нами:</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                          Антон: <a href="tel: +375(29)650-20-10" title="позвонить">+375(29)650-20-10</a>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section id="about">
+            <div class="container">
+                <h2>О нас</h2>
+                <div class="row">
+                    <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-truck-loading" aria-hidden="true"></i>Удобство.</h5>
+                        <p class="card-text">Пропустите магазин и потратьте больше времени на то, что важно - на семью. Доставьте наше мясо бесплатно прямо к вашей двери. Каждая коробка, независимо от того, выбрана она вами или курирована нами, идеально упакована и порционирована для ваших нужд.</p>
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="far fa-check-circle" aria-hidden="true"></i>Качество.</h5>
+                        <p class="card-text">Мы стремимся к производству высококачественного мяса - 100% свинины.</p>
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-users aria-hidden=" true="" aria-hidden="true"></i>Ценность.</h5>
+                        <p class="card-text">Наша цель - сделать высококачественное мясо доступным как можно большему количеству людей. Мы можем доставить вам лучшие продукты. И доставка бесплатная!</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner -->
+        <section>
+            <!-- <div class="container"> -->
+                <div class="jumbotron">
+                    <img src="./img/pr1.png" title="Торговый дом ЖДАНОВИЧИ" alt="Торговый дом ЖДАНОВИЧИ">
+                    <img src="./img/pr2.png" title="Торговый центр ЗАМОК" alt="Торговый центр ЗАМОК">
+                    <img src="./img/pr3.png" title="Каморовский рынок" alt="Каморовский рынок">
+                    <img src="./img/pr4.png" title="Виталюр" alt="Виталюр">
+                    <img src="./img/pr5.png" title="Евроопт" alt="Евроопт">
+                </div>
+            <!-- </div> -->
+        </section>
+
+
+        <!-- Production -->
+        <section id="production">
+            <div class="container">
+                <h2>Продукция</h2>
+                <div class="row">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/it1.jpg" class="card-img-top item" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">Туша</p>
+                      </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                      <img src="./img/it2.jpg" class="card-img-top item" alt="...">
+                      <div class="card-body">
+                        <p class="card-text">Полу-туша</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <div class="container">
+                <h2>Контакты</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h6>Директор ООО "МПЦ-Агрослайд"</h6>
+                        <p>Павлюченко Анатолий Николаевич</p>
+                        <h6>Зам. директора ООО "МПЦ-Агрослайд"</h6>
+                        <p>Городецкий Антон Викторович</p>
+                        <p><a href="tel: +375(29)650-20-10">+375(29)650-20-10</a></p>
+                        <a class="file" href="./files/file1.pdf">Коммерческое Предложение</a><br>
+                        <a class="file" href="./files/file2.pdf">Реквизиты</a><br>
+                        <h6>Наша почта:</h6>
+                        <p>agroslaid@mail.ru</p>
+                        <h6>Адресс: </h6>
+                        <address>
+                            223237, Агрогородок Черноградь, ул. Центральная, д. 9В, ком. № 2, Минская обл., Червенский р-н.
+                        </address>
+                    </div>
+                    <div class="col-md-6">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4705.261914020139!2d27.650222!3d53.86721!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcdfc0d8cfe91%3A0x5d278e5e7153f9d1!2z0YPQu9C40YbQsCDQptC10L3RgtGA0LDQu9GM0L3QsNGPIDksINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1575501635450!5m2!1sru!2sby" frameborder="0" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            Все права защищены &copy; ООО "МПЦ-Агрослайд"
+        </footer>
+
+        <!-- Bootstrap Javascript -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>

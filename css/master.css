@@ -1,0 +1,199 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+}
+
+nav {
+    background-color: rgba(251, 251, 250, 0.9);
+}
+
+.phone {
+    animation: updown 2s infinite;
+}
+
+@keyframes updown {
+        0%   { transform: translateY(0px); }
+        50%  { transform: translateY(-10px); };
+        100% { transform: translateY(0px); }
+    }
+
+#intro {
+    background-image: url("../img/homeBg.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#intro h1 {
+    color: #ffffff;
+    background-color: rgb(255, 0, 0);
+    display: inline-block;
+    padding: 2% 3%;
+    font-size: 5rem;
+    font-family: Pattaya, sans-serif;
+    letter-spacing: 15px;
+}
+
+#intro p {
+    background-color: #fff;
+    color: rgb(255, 0, 0);
+    display: inline-block;
+    padding: 1% 2%;
+    font-family: Pattaya, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+}
+
+@media (max-width: 800px) {
+    #intro h1 {
+        font-size: 2rem;
+    }
+    #intro p {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .logoimg {
+        width: 150px;
+    }
+    #intro h1 {
+        font-size: 1.4rem;
+    }
+    #intro p {
+        font-size: 0.7rem;
+    }
+}
+
+#intro .contact-btn {
+    background-color: rgba(255, 0, 0, 0.5);
+    border: 2px solid rgba(251, 251, 250, 0.9);
+    color: #fff;
+    font-family: Roboto, sans-serif;
+    font-variant: small-caps;
+    font-weight: 700;
+    letter-spacing: 2px;
+    animation: updown 2s infinite;
+    margin-top: 15%;
+}
+
+#about .container {
+    padding: 7% 0;
+}
+
+h2 {
+    font-size: 3rem;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+#about .row {
+    margin: 0;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+}
+
+@media (max-width: 600px) {
+    #about .row {
+        justify-content: center;
+    }
+}
+
+#about i {
+    padding: 0 5% 0 0;
+}
+
+#production {
+    background-image:
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .jumbotron img {
+        width: 150px;
+    }
+}
+
+#production {
+    padding-bottom: 5%;
+}
+
+#production .row {
+    justify-content: space-around;
+}
+
+.item:hover {
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+#contact {
+    padding: 10%;
+    background-image: url(".././img/contactBg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+iframe {
+    width: 600px;
+    height: 550px;
+}
+
+
+
+@media (max-width: 1440px) {
+    iframe {
+        width: 400px;
+        height: 500px;
+    }
+}
+
+@media (max-width: 900px) {
+    iframe {
+        width: 300px !important;
+        height: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    iframe {
+        width: 500px;
+        height: 550px;
+    }
+}
+
+@media (max-width: 576px) {
+    iframe {
+        display: none;
+    }
+}
+
+#contact a:first-child {
+    color: #fff;
+}
+
+#contact .file {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #e9ecef;
+    text-align: center;
+    padding: 2%;
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 0.7rem;
+    }
+}
